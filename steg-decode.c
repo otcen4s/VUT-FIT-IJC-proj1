@@ -30,8 +30,8 @@ int main(int argc, char* argv[]){
  	char *file;
 	file = argv[1];
 
-    struct ppm *image;
-    image = ppm_read(file);
+    	struct ppm *image;
+    	image = ppm_read(file);
 	
 	if(image == NULL){
 		ppm_free(image);
