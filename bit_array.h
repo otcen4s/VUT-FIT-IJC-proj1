@@ -7,11 +7,13 @@
 //Datum: 	14.3.2019
 //===============================================================//
 
+#ifndef __BIT_ARRAY_H__
+#define __BIT_ARRAY_H__
+
 #include <assert.h>
 #include "error.h"
 #include <limits.h>
 #include <stdio.h>
-
 
 #define static_assert _Static_assert
 
