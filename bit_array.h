@@ -102,4 +102,6 @@ inline unsigned long bit_array_getbit(bit_array_t *meno_pola, unsigned long inde
 		((meno_pola[1 + ((index) / SIZE)] & (unsigned long)1 << ((index) % SIZE)) ? 1 : 0 )
 #endif 
 
+#endif // __BIT_ARRAY_H__
+
 /////////////////////////////////////////////////////////////////////////////

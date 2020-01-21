@@ -7,6 +7,11 @@
 //Datum:        14.3.2019
 //===============================================================//
 
+#ifndef __ERATOSTHENES_H__
+#define __ERATOSTHENES_H__
+
 #include "bit_array.h"
 
 void Eratosthenes(bit_array_t* pole);
+
+#endif // __ERATOSTHENES_H__

@@ -7,6 +7,9 @@
 //Datum:        14.3.2019
 //===============================================================//
 
+#ifndef __PPM_H__
+#define __PPM_H__
+
 #include <stdio.h>
 
 struct ppm{
@@ -17,3 +20,5 @@ struct ppm{
 
 struct ppm *ppm_read(const char * filename);
 void ppm_free(struct ppm *p);
+
+#endif // __PPM_H__
